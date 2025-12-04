@@ -13,9 +13,10 @@ if fuel <= 0:
 elif mileage <= 0:
     print("Mileage must be greater than 0.")
 else:
-    total_range = fuel * mileage
     car_type = sys.argv[1]
     fuel = float(sys.argv[2])
     mileage = float(sys.argv[3])
+
+total_range = fuel * mileage
 
     print("Total Travel Range:", total_range, "km")
