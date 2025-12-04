@@ -13,7 +13,7 @@ if fuel <= 0:
 elif mileage <= 0:
     print("Mileage must be greater than 0.")
 else:
-    total_range = fuel * mileage
+    default(total_range = fuel * mileage)
     print("Car Type:", car_type)
     print("Fuel:", fuel, "liters")
     print("Mileage:", mileage, "km/l")
